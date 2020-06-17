@@ -13,6 +13,7 @@ RUN set -eux; \
 		xz \
 # pigz: https://github.com/moby/moby/pull/35697 (faster gzip implementation)
 		pigz \
+		curl \
 	; \
 # only install zfs if it's available for the current architecture
 # https://git.alpinelinux.org/cgit/aports/tree/main/zfs/APKBUILD?h=3.6-stable#n9 ("all !armhf !ppc64le" as of 2017-11-01)
