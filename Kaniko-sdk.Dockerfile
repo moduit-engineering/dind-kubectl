@@ -1,4 +1,4 @@
-FROM gcr.io/kaniko-project/executor:debug as kaniko
+FROM gcr.io/kaniko-project/executor:debug-v1.0.0 as kaniko
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1.401-alpine3.12
 #RUN apk add --no-cache curl
